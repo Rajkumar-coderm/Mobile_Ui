@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 400px;
+    /* font-size: 62.5%; */
+    font-family: 'Lato', sans-serif;
+}
+
+.main-head{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 70, 141);
+}
+
+.arrow-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+.arrow-list img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.bang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+}
+
+.bang-icon{
+    margin-top: 0.3rem;
+}
+
+
+.vogo-ret{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    background-color: rgb(70, 70, 141);
+    
+}
+
+.vogo-ret p{
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+.vogo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.vogo img{
+    width: 4rem;
+    height: 1rem;
+}
+
+.vogo p{
+    font-size: 1.2rem;
+    color: yellow;
+}
+
+.main-pack{
+    padding: 1rem;
+    display: flex;
+    gap: 1.4rem;
+    flex-direction: column;
+    background-color: rgb(70, 70, 141);
+    color: #fff;
+}
+
+.main-pack p{
+    font-weight: 700;
+}
+
+
+.input-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.earth-arrow{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.clock{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.earth-arrow img{
+    width: 5%;
+}
+
+.earth-arrow input{
+    margin-left: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+.icon-down{
+    width: 3rem;
+    color: #000;
+}
+
+
+.icon-for{
+    background-color: yellow;
+    padding: 0.8rem;
+    width: 3rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    color: #000;
+}
+
+
+.popular-days{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 70, 141);
+}
+
+.pop-line{
+    padding: 1rem;
+    display: flex;
+    gap: 0.3rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.pop{
+    white-space: nowrap;
+    color: #fff;
+}
+
+.pop-line hr{
+    margin-top: 0.5rem;
+    width: 70%;
+}
+
+.days{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+}
+
+.num-day{
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: rgb(70, 70, 141);
+}
+
+.num{
+    font-weight: 700;
+}
+
+
+.or-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hr-or{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.hr-or hr{
+    margin-top: 0.3rem;
+    width: 100%;
+}
+
+.new{
+    position: absolute;
+    /* line-height: 1rem; */
+    right: 2rem;
+    top: 3.5rem;
+    padding: 0 0.3rem 0.3rem 0.3rem;
+    background-color: skyblue;
+    /* width: 2.6rem; */
+    border-radius: 0.5rem;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.main-card{
+    /* margin: ; */
+    border: 1px solid gray;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(119, 119, 185);
+}
+
+.inner-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.empty-calendar{
+    width: 2rem;
+    position: relative;
+}
+
+.empty{
+    background-color: rgb(151, 151, 172);
+    width: 2rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+}
+
+.empty-calendar img{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 2rem;
+}
+
+.flexi-p{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: #fff;
+    
+}
+
+.flexi-p-1{
+    font-weight: 700;
+}
+
+.card-for{
+    color: #fff;
+}
+
+.pack{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-how{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color:rgb(70, 70, 141);
+    font-weight: 700
+}
+
+.main-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
+
+
+.choose-coupon{
+    margin: 0 1rem 1rem 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.choose-coupon p{
+    font-weight: 700;
+    width: 12rem;
+    color: orange;
+}
+
+.choose-coupon img{
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.5rem;
+    background-color:  rgb(233, 181, 85);
+    border-radius: 40%;
+}
+

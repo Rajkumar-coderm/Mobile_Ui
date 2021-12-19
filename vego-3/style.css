@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 400px;
+    font-size: 62.5%;
+}
+
+
+.main-header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0 5px 3px -3px rgb(199, 195, 195);
+}
+
+.list-img{
+    width: 7%;
+}
+
+.main-icon{
+    width: 5rem;
+}
+
+
+.refer-img{
+    /* overflow: hidden; */
+    /* width: 20rem; */
+    background-color:rgb(236, 236, 236);
+    margin: 1rem 1.5rem;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(221, 209, 209);
+    border-radius: 0.5rem;
+}
+
+
+.refer-img-again{
+    /* width: 30rem !important; */
+    background-color: rgb(253, 242, 219);
+}
+
+.refer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.refer-p-1{
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.refer-p-1-again{
+    color: rgb(206, 155, 52);
+}
+
+.refer-p-2{
+    font-size: 0.8rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+.refer-img img{
+    padding: 0.5rem;
+    background-color:rgb(145, 145, 180);
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    
+}
+
+.sanit{
+    background-color: rgb(233, 191, 107) !important;
+    width: 16% !important;
+}
+
+.refer-btn{
+    display: flex;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+.icon-fore{
+    padding: 0.1rem;
+    background-color: rgb(23, 136, 180);
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    color: #fff;
+}
+
+.icon-fore-again{
+    background-color: rgb(221, 166, 57) !important;
+}
+
+.refer-btn p{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(23, 136, 180);
+}
+
+.know-p{
+    color: rgb(221, 166, 57) !important;
+}
+
+.safety-regular{
+    display: flex;
+    flex-direction: column;
+    /* margin: 1rem 1.5rem; */
+}
+
+.safety-p{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+
+    /* height: 2rem; */
+}
+
+.safety-p img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.safety-p p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+
+.two-img{
+    position: relative;
+    background-color: rgb(250, 246, 246);
+}
+
+.img-1{
+    margin-top: -2rem;
+    margin-left: -4rem;
+    width: 100%;
+}
+
+.img-2{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+
+

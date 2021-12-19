@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato';
+    width: 400px;
+}
+
+
+
+.main-nav-bar{
+    display: flex;
+    background-color: blue;
+    height: 4rem;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+}
+
+.main-nav-bar p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.arror-nav-icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+
+/* !sccoty section  */
+
+.sccoty-section{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sccoty-section img{
+    width: 6rem;
+}
+
+/* .scooty-containt h2{
+    font-size: 1.9rem;
+    width: 700;
+    line-height: 2.3rem;
+} */
+
+.sccoty-section h2:first-child{
+    color: rgb(185, 146, 15);
+    width: 900;
+    font-size: 1.1rem;
+}
+
+.sccoty-section h2:last-child{
+    font-size: 1.2rem !important;
+    padding-top: 0.5rem;
+    width: 900;
+}
+
+
+/* !card */
+
+.card-all{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.weekly-lite{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgba(189, 183, 183, 0.26);
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.first-line{
+    padding: 0 1.7rem 0rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-line p{
+    font-size: 1rem !important;
+    width: 700;
+    color: rgba(56, 54, 54, 0.966);
+}
+
+.first-line strong{
+    font-size: 1.1rem;
+    width: 900 !important;
+
+}
+
+.second-line{
+    padding: 0rem 0rem 0rem 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.second-line strong{
+    font-size: 1rem;
+}
+
+.second-line span{
+    color: rgba(252, 49, 49, 0.945);
+    font-size: 0.8rem;
+    padding-right: 1rem;
+}
+
+.second-line s{
+    color: #000;
+}
+
+.weekly-lite p{
+    padding: 0rem 0rem 0rem 1.3rem;
+    font-size: 0.8rem;
+    line-height: 2.3rem;
+    width: 400;
+    color: rgba(56, 54, 54, 0.966);
+}
+
+
+
+/* !list item */
+
+.list-of-item{
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.123);
+    margin-top: 1.3rem;
+    border-radius: 1rem;
+    
+}
+section{
+    padding: 1rem;
+}
+
+.list-of-item li ,ul{
+    font-size: 1rem;
+    padding: 0.2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: rgba(56, 54, 54, 0.966);
+    font-family: 'Lota';
+}
+
+
+/* !caption */
+
+.all-details{
+    background-color: rgba(128, 128, 128, 0.089);
+    margin: 1.4rem;
+    border-radius: 1rem;
+}
